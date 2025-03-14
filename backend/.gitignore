@@ -4,4 +4,4 @@
 # También ignorar cualquier otro archivo .env.local o variantes
 .env.*
 
-node_modules
+.node_modules
