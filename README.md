@@ -53,8 +53,6 @@ Instalar dependencias y ejecutar. Tanto backend, como frontend, y en dos termina
 
 ![Login](https://i.ibb.co/LXQgn1B0/Captura-de-pantalla-2025-03-14-010037.png)
 
-![Register](https://i.ibb.co/dsNmLj66/Captura-de-pantalla-2025-03-14-010053.png)
-
 ![Dashboard](https://i.ibb.co/PsDjS8HR/Captura-de-pantalla-2025-03-14-010113.png)
 
 ![Polls](https://i.ibb.co/mrkY6pT2/Captura-de-pantalla-2025-03-14-010139.png)
@@ -62,6 +60,5 @@ Instalar dependencias y ejecutar. Tanto backend, como frontend, y en dos termina
 ![Responsive](https://i.ibb.co/MxLz7cdY/Captura-de-pantalla-2025-03-14-010236.png)
 
 #
-
 
 ![Logo](https://i.ibb.co/cBGzNKq/laparodi-github-cover.png)
