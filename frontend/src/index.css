@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+
+.bg-pattern {
+    background-color: #000000;
+    opacity: 1;
+    background-image: radial-gradient(#1c1c1c 0.75px, transparent 0.75px), radial-gradient(#1c1c1c 0.75px, #000000 0.75px);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+}
+
+@layer base {
+    html {
+        font-family: "Poppins", "sans-serif";
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@layer components {
+    .input-box {
+        @apply w-full flex justify-between gap-3 text-sm text-black rounded px-4 py-3 mb-4 mt-3 border border-slate-200 outline-none;
+    }
+
+    .btn-primary {
+        @apply w-full text-sm font-medium text-white bg-neutral-800 shadow-lg shadow-gray-950/5 p-[10px] rounded-md my-1 hover:bg-neutral-700 transition-all cursor-pointer;
+    }
+
+    .btn-uploadImg {
+        @apply w-8 h-8 flex items-center justify-center bg-gray-300 rounded-full absolute -bottom-1 -right-1 cursor-pointer transition-all hover:bg-gray-200;
+    }
+
+    .btn-deleteImg {
+        @apply w-8 h-8 flex items-center justify-center bg-red-500 rounded-full absolute -bottom-1 -right-1 cursor-pointer transition-all hover:bg-red-400;
+    }
+
+    .btn-small {
+        @apply flex items-center gap-1 text-xs font-medium bg-black text-white hover:bg-neutral-900/80 rounded px-3 py-[4px] cursor-pointer;
+    }
+
+    .option-chip {
+        @apply text-xs font-medium text-neutral-700 bg-neutral-100 px-4 py-1 rounded-lg border border-neutral-50 cursor-pointer hover:bg-neutral-300;
+    }
+
+    .icon-btn {
+        @apply text-[20px] text-slate-300 cursor-pointer hover:text-neutral-500;
+    }
+
+    .info-text {
+        @apply text-sm text-neutral-700 font-medium text-center p-3 bg-neutral-300 rounded-xl;
+    }
+}
