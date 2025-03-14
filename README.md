@@ -63,5 +63,4 @@ Instalar dependencias y ejecutar. Tanto backend, como frontend, y en dos termina
 
 #
 
-
 ![Logo](https://i.ibb.co/cBGzNKq/laparodi-github-cover.png)
